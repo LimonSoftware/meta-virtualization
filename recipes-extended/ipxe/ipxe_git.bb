@@ -19,6 +19,8 @@ SRC_URI = " \
     file://ipxe-intel-Avoid-spurious-compiler-warning-on-GCC-10.patch \
     file://ipxe-golan-Add-explicit-type-casts-for-nodnic_queue_pair_.patch \
     file://build-be-explicit-about-fcommon-compiler-directive.patch \
+    file://build-Remove-unsafe-disable-function-wrapper-from-le.patch;patchdir=.. \
+    file://build-Prevent-the-use-of-reserved-words-in-C23.patch;patchdir=.. \
     "
 
 FILES:${PN} = "/usr/share/firmware/*.rom"
